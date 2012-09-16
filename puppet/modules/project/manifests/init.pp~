@@ -1,0 +1,8 @@
+# /puppet/modules/project/manifests/init.pp
+class project {
+    include project::setup
+    include project::sql
+    include project::web
+    include project::indefero
+    #include project::symfony2
+}

@@ -1,0 +1,19 @@
+{
+  "name": "nikki-test",
+  "author": "nikki",
+  "description": "",
+  "license": "",
+  "project_page": "",
+  "source": "",
+  "summary": "",
+  "version": "",
+  "checksums": {
+    "Modulefile": "5089e67415a7e75c9d4d9692a5256fe0",
+    "README": "dee827ceab754b7617701b18a795db1e",
+    "manifests/init.pp": "4fdf6c37a67ef6473529390df3c66cbf",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "tests/init.pp": "f9b848a7b81e872ff915cf7beb236ec1"
+  },
+  "dependencies": []
+}

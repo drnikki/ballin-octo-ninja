@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="org.cloudsmith.geppetto.product:2.2.1.v20120718-1434"/>
+		<item value="org.cloudsmith.geppetto:2.2.1.v20120718-1429"/>
+		<item value="org.eclipse.egit:2.0.0.201206130900-r"/>
+		<item value="org.eclipse.emf.common.ui:2.7.0.v20120130-0943"/>
+		<item value="org.eclipse.emf.common:2.7.0.v20120127-1122"/>
+		<item value="org.eclipse.emf.ecore.edit:2.7.1.v20120130-0943"/>
+		<item value="org.eclipse.emf.ecore:2.7.1.v20120127-1122"/>
+		<item value="org.eclipse.emf.edit.ui:2.7.0.v20120130-0943"/>
+		<item value="org.eclipse.emf.edit:2.7.2.v20120130-0943"/>
+		<item value="org.eclipse.jgit:2.0.0.201206130900-r"/>
+		<item value="org.eclipse.rcp:3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272"/>
+		<item value="org.eclipse.team.svn:0.7.9.I20110819-1700"/>
+		<item value="org.polarion.eclipse.team.svn.connector.svnkit16:2.2.2.I20110602-1700"/>
+		<item value="org.polarion.eclipse.team.svn.connector:2.2.2.I20110602-1700"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.cloudsmith.geppetto.ui.NewPuppetModuleProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.cloudsmith.geppetto.ui.newWizardCategory"/>
+			<item value="org.eclipse.team.svn.ui.repository"/>
+		</list>
+	</section>
+</section>

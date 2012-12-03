@@ -1,0 +1,2823 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:builderState="http://www.eclipse.org/xtext/builderstate/1.0">
+  <builderState:ResourceDescription URI="platform:/resource/test/tests/init.pp">
+    <importedNames>7:include</importedNames>
+  </builderState:ResourceDescription>
+  <builderState:ResourceDescription URI="platform:/resource/test/manifests/init.pp">
+    <exportedObjects fragment="/0/@statements.0" name="4:test">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PP#//HostClassDefinition"/>
+    </exportedObjects>
+  </builderState:ResourceDescription>
+  <builderState:ResourceDescription URI="platform:/resource/.org_cloudsmith_geppetto_pptp_target/puppet-3.0.0.pptp">
+    <exportedObjects fragment="/0/@contents.0" name="8:settings">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//NameSpace"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.0" name="8:settings1:*">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.1" name="8:settings21:allow_duplicate_certs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.2" name="8:settings19:archive_file_server">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.3" name="8:settings13:archive_files">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.4" name="8:settings18:async_storeconfigs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.5" name="8:settings10:authconfig">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.6" name="8:settings9:autoflush">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.7" name="8:settings8:autosign">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.8" name="8:settings11:bindaddress">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.9" name="8:settings9:bucketdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.10" name="8:settings2:ca">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.11" name="8:settings7:ca_days">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.12" name="8:settings5:ca_md">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.13" name="8:settings7:ca_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.14" name="8:settings7:ca_port">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.15" name="8:settings9:ca_server">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.16" name="8:settings6:ca_ttl">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.17" name="8:settings6:cacert">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.18" name="8:settings5:cacrl">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.19" name="8:settings5:cadir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.20" name="8:settings5:cakey">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.21" name="8:settings6:capass">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.22" name="8:settings12:caprivatedir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.23" name="8:settings5:capub">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.24" name="8:settings14:catalog_format">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.25" name="8:settings16:catalog_terminus">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.26" name="8:settings14:cert_inventory">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.27" name="8:settings7:certdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.28" name="8:settings12:certdnsnames">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.29" name="8:settings22:certificate_revocation">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.30" name="8:settings8:certname">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.31" name="8:settings9:classfile">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.32" name="8:settings14:client_datadir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.33" name="8:settings15:clientbucketdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.34" name="8:settings13:clientyamldir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.35" name="8:settings4:code">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.36" name="8:settings5:color">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.37" name="8:settings7:confdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.38" name="8:settings6:config">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.39" name="8:settings14:config_version">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.40" name="8:settings11:configprint">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.41" name="8:settings13:configtimeout">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.42" name="8:settings11:couchdb_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.43" name="8:settings6:csrdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.44" name="8:settings9:daemonize">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.45" name="8:settings9:dbadapter">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.46" name="8:settings13:dbconnections">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.47" name="8:settings10:dblocation">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.48" name="8:settings9:dbmigrate">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.49" name="8:settings6:dbname">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.50" name="8:settings10:dbpassword">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.51" name="8:settings6:dbport">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.52" name="8:settings8:dbserver">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.53" name="8:settings8:dbsocket">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.54" name="8:settings6:dbuser">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.55" name="8:settings12:deviceconfig">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.56" name="8:settings9:devicedir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.57" name="8:settings4:diff">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.58" name="8:settings9:diff_args">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.59" name="8:settings12:document_all">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.60" name="8:settings13:downcasefacts">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.61" name="8:settings12:dynamicfacts">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.62" name="8:settings11:environment">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.63" name="8:settings9:evaltrace">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.64" name="8:settings14:external_nodes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.65" name="8:settings8:factdest">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.66" name="8:settings8:factpath">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.67" name="8:settings14:facts_terminus">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.68" name="8:settings11:factsignore">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.69" name="8:settings10:factsource">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.70" name="8:settings8:factsync">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.71" name="8:settings16:fileserverconfig">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.72" name="8:settings11:filetimeout">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.73" name="8:settings11:freeze_main">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.74" name="8:settings9:genconfig">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.75" name="8:settings11:genmanifest">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.76" name="8:settings5:graph">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.77" name="8:settings8:graphdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.78" name="8:settings5:group">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.79" name="8:settings8:hostcert">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.80" name="8:settings7:hostcrl">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.81" name="8:settings7:hostcsr">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.82" name="8:settings11:hostprivkey">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.83" name="8:settings10:hostpubkey">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.84" name="8:settings16:http_compression">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.85" name="8:settings15:http_proxy_host">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.86" name="8:settings15:http_proxy_port">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.87" name="8:settings7:httplog">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.88" name="8:settings11:ignorecache">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.89" name="8:settings12:ignoreimport">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.90" name="8:settings15:ignoreschedules">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.91" name="8:settings14:inventory_port">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.92" name="8:settings16:inventory_server">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.93" name="8:settings18:inventory_terminus">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.94" name="8:settings9:keylength">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.95" name="8:settings11:lastrunfile">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.96" name="8:settings13:lastrunreport">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.97" name="8:settings9:ldapattrs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.98" name="8:settings8:ldapbase">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.99" name="8:settings14:ldapclassattrs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.100" name="8:settings9:ldapnodes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.101" name="8:settings14:ldapparentattr">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.102" name="8:settings12:ldappassword">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.103" name="8:settings8:ldapport">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.104" name="8:settings10:ldapserver">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.105" name="8:settings7:ldapssl">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.106" name="8:settings16:ldapstackedattrs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.107" name="8:settings10:ldapstring">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.108" name="8:settings7:ldaptls">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.109" name="8:settings8:ldapuser">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.110" name="8:settings7:lexical">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.111" name="8:settings6:libdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.112" name="8:settings6:listen">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.113" name="8:settings11:localcacert">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.114" name="8:settings11:localconfig">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.115" name="8:settings6:logdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.116" name="8:settings32:manage_internal_file_permissions">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.117" name="8:settings8:manifest">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.118" name="8:settings11:manifestdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.119" name="8:settings13:masterhttplog">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.120" name="8:settings9:masterlog">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.121" name="8:settings10:masterport">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.122" name="8:settings11:maximum_uid">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.123" name="8:settings7:mkusers">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.124" name="8:settings10:modulepath">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.125" name="8:settings4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.126" name="8:settings9:node_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.127" name="8:settings14:node_name_fact">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.128" name="8:settings15:node_name_value">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.129" name="8:settings13:node_terminus">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.130" name="8:settings4:noop">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.131" name="8:settings7:onetime">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.132" name="8:settings8:passfile">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.133" name="8:settings4:path">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.134" name="8:settings7:pidfile">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.135" name="8:settings10:plugindest">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.136" name="8:settings13:pluginsignore">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.137" name="8:settings12:pluginsource">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.138" name="8:settings10:pluginsync">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.139" name="8:settings15:postrun_command">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.140" name="8:settings30:preferred_serialization_format">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.141" name="8:settings14:prerun_command">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.142" name="8:settings10:privatedir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.143" name="8:settings13:privatekeydir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.144" name="8:settings12:publickeydir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.145" name="8:settings15:puppetdlockfile">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.146" name="8:settings10:puppetdlog">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.147" name="8:settings10:puppetport">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.148" name="8:settings12:queue_source">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.149" name="8:settings10:queue_type">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.150" name="8:settings14:rails_loglevel">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.151" name="8:settings8:railslog">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.152" name="8:settings6:report">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.153" name="8:settings11:report_port">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.154" name="8:settings13:report_server">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.155" name="8:settings9:reportdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.156" name="8:settings10:reportfrom">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.157" name="8:settings7:reports">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.158" name="8:settings12:reportserver">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.159" name="8:settings9:reporturl">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.160" name="8:settings8:req_bits">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.161" name="8:settings10:requestdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.162" name="8:settings12:resourcefile">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.163" name="8:settings15:rest_authconfig">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.164" name="8:settings10:route_file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.165" name="8:settings6:rrddir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.166" name="8:settings11:rrdinterval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.167" name="8:settings8:run_mode">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.168" name="8:settings6:rundir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.169" name="8:settings11:runinterval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.170" name="8:settings8:sendmail">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.171" name="8:settings6:serial">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.172" name="8:settings6:server">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.173" name="8:settings14:server_datadir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.174" name="8:settings10:servertype">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.175" name="8:settings9:show_diff">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.176" name="8:settings9:signeddir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.177" name="8:settings10:smtpserver">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.178" name="8:settings5:splay">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.179" name="8:settings10:splaylimit">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.180" name="8:settings17:ssl_client_header">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.181" name="8:settings24:ssl_client_verify_header">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.182" name="8:settings6:ssldir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.183" name="8:settings8:statedir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.184" name="8:settings9:statefile">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.185" name="8:settings12:storeconfigs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.186" name="8:settings20:storeconfigs_backend">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.187" name="8:settings24:strict_hostname_checking">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.188" name="8:settings9:summarize">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.189" name="8:settings14:syslogfacility">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.190" name="8:settings6:tagmap">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.191" name="8:settings4:tags">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.192" name="8:settings11:templatedir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.193" name="8:settings17:thin_storeconfigs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.194" name="8:settings5:trace">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.195" name="8:settings18:use_cached_catalog">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.196" name="8:settings17:usecacheonfailure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.197" name="8:settings4:user">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.198" name="8:settings6:vardir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.199" name="8:settings7:yamldir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@contents.0/@contents.200" name="8:settings4:zlib">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TPVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.0" name="16:create_resources">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.1" name="7:defined">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.2" name="9:extlookup">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.3" name="4:fail">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.4" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.5" name="9:fqdn_rand">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.6" name="8:generate">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.7" name="7:include">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.8" name="15:inline_template">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.9" name="3:md5">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.10" name="7:realize">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.11" name="8:regsubst">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.12" name="7:require">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.13" name="6:search">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.14" name="4:sha1">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.15" name="10:shellquote">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.16" name="5:split">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.17" name="7:sprintf">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.18" name="3:tag">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.19" name="6:tagged">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.20" name="8:template">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.21" name="10:versioncmp">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.22" name="5:debug">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.23" name="4:info">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.24" name="6:notice">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.25" name="7:warning">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.26" name="3:err">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.27" name="5:alert">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.28" name="5:emerg">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@functions.29" name="4:crit">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0" name="6:augeas">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@properties.0" name="6:augeas7:returns">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@parameters.0" name="6:augeas4:incl">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@parameters.1" name="6:augeas10:type_check">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@parameters.2" name="6:augeas9:load_path">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@parameters.3" name="6:augeas4:root">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@parameters.4" name="6:augeas6:onlyif">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@parameters.5" name="6:augeas4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@parameters.6" name="6:augeas7:context">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@parameters.7" name="6:augeas5:force">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@parameters.8" name="6:augeas4:lens">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.0/@parameters.9" name="6:augeas7:changes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.1" name="9:component">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.1/@parameters.0" name="9:component4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.2" name="8:computer">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.2/@properties.0" name="8:computer10:ip_address">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.2/@properties.1" name="8:computer10:en_address">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.2/@properties.2" name="8:computer6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.2/@parameters.0" name="8:computer4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.2/@parameters.1" name="8:computer8:realname">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3" name="4:cron">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@properties.0" name="4:cron6:minute">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@properties.1" name="4:cron11:environment">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@properties.2" name="4:cron7:weekday">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@properties.3" name="4:cron8:monthday">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@properties.4" name="4:cron6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@properties.5" name="4:cron5:month">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@properties.6" name="4:cron7:command">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@properties.7" name="4:cron7:special">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@properties.8" name="4:cron4:hour">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@properties.9" name="4:cron4:user">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@parameters.0" name="4:cron4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.3/@parameters.1" name="4:cron6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4" name="4:exec">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@properties.0" name="4:exec7:returns">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.0" name="4:exec9:logoutput">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.1" name="4:exec6:onlyif">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.2" name="4:exec3:cwd">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.3" name="4:exec7:creates">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.4" name="4:exec11:refreshonly">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.5" name="4:exec11:environment">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.6" name="4:exec6:unless">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.7" name="4:exec9:try_sleep">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.8" name="4:exec7:command">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.9" name="4:exec4:path">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.10" name="4:exec5:tries">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.11" name="4:exec5:group">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.12" name="4:exec4:user">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.13" name="4:exec7:refresh">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.4/@parameters.14" name="4:exec7:timeout">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5/@parameters.0" name="4:file12:sourceselect">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5/@parameters.1" name="4:file7:replace">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5/@parameters.2" name="4:file4:path">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5/@parameters.3" name="4:file5:links">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5/@parameters.4" name="4:file12:recurselimit">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5/@parameters.5" name="4:file5:force">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5/@parameters.6" name="4:file7:recurse">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5/@parameters.7" name="4:file5:purge">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5/@parameters.8" name="4:file6:ignore">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.5/@parameters.9" name="4:file6:backup">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.6" name="10:filebucket">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.6/@parameters.0" name="10:filebucket4:port">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.6/@parameters.1" name="10:filebucket4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.6/@parameters.2" name="10:filebucket4:path">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.6/@parameters.3" name="10:filebucket6:server">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7" name="5:group">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7/@properties.0" name="5:group3:gid">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7/@properties.1" name="5:group10:attributes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7/@properties.2" name="5:group7:members">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7/@parameters.0" name="5:group20:attribute_membership">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7/@parameters.1" name="5:group6:system">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7/@parameters.2" name="5:group4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7/@parameters.3" name="5:group9:allowdupe">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7/@parameters.4" name="5:group15:auth_membership">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7/@parameters.5" name="5:group14:ia_load_module">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.7/@parameters.6" name="5:group6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.8" name="4:host">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.8/@properties.0" name="4:host6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.8/@properties.1" name="4:host7:comment">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.8/@properties.2" name="4:host12:host_aliases">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.8/@properties.3" name="4:host2:ip">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.8/@parameters.0" name="4:host4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.8/@parameters.1" name="4:host6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9" name="9:interface">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@properties.0" name="9:interface19:allowed_trunk_vlans">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@properties.1" name="9:interface12:etherchannel">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@properties.2" name="9:interface5:speed">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@properties.3" name="9:interface11:native_vlan">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@properties.4" name="9:interface11:description">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@properties.5" name="9:interface9:ipaddress">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@properties.6" name="9:interface6:duplex">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@properties.7" name="9:interface4:mode">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@properties.8" name="9:interface13:encapsulation">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@parameters.0" name="9:interface4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@parameters.1" name="9:interface10:device_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.9/@parameters.2" name="9:interface6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.10" name="7:k5login">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.10/@properties.0" name="7:k5login10:principals">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.10/@properties.1" name="7:k5login4:mode">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.10/@parameters.0" name="7:k5login4:path">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.10/@parameters.1" name="7:k5login6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11" name="16:macauthorization">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.0" name="16:macauthorization6:shared">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.1" name="16:macauthorization10:allow_root">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.2" name="16:macauthorization17:authenticate_user">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.3" name="16:macauthorization9:auth_type">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.4" name="16:macauthorization13:session_owner">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.5" name="16:macauthorization6:k_of_n">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.6" name="16:macauthorization10:auth_class">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.7" name="16:macauthorization4:rule">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.8" name="16:macauthorization5:tries">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.9" name="16:macauthorization7:comment">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.10" name="16:macauthorization5:group">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.11" name="16:macauthorization10:mechanisms">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@properties.12" name="16:macauthorization7:timeout">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@parameters.0" name="16:macauthorization4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.11/@parameters.1" name="16:macauthorization6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.12" name="9:mailalias">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.12/@properties.0" name="9:mailalias6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.12/@properties.1" name="9:mailalias9:recipient">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.12/@parameters.0" name="9:mailalias4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.12/@parameters.1" name="9:mailalias6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.13" name="8:maillist">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.13/@parameters.0" name="8:maillist10:mailserver">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.13/@parameters.1" name="8:maillist5:admin">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.13/@parameters.2" name="8:maillist11:description">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.13/@parameters.3" name="8:maillist4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.13/@parameters.4" name="8:maillist9:webserver">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.13/@parameters.5" name="8:maillist8:password">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.13/@parameters.6" name="8:maillist6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.14" name="3:mcx">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.14/@properties.0" name="3:mcx7:content">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.14/@parameters.0" name="3:mcx4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.14/@parameters.1" name="3:mcx7:ds_type">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.14/@parameters.2" name="3:mcx7:ds_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.14/@parameters.3" name="3:mcx6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15" name="5:mount">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@properties.0" name="5:mount4:dump">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@properties.1" name="5:mount6:fstype">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@properties.2" name="5:mount11:blockdevice">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@properties.3" name="5:mount6:atboot">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@properties.4" name="5:mount6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@properties.5" name="5:mount6:device">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@properties.6" name="5:mount4:pass">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@properties.7" name="5:mount7:options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@properties.8" name="5:mount6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@parameters.0" name="5:mount4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@parameters.1" name="5:mount4:path">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.15/@parameters.2" name="5:mount8:remounts">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.16" name="6:notify">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.16/@properties.0" name="6:notify7:message">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.16/@parameters.0" name="6:notify4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.16/@parameters.1" name="6:notify8:withpath">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17" name="7:package">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.0" name="7:package8:platform">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.1" name="7:package6:status">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.2" name="7:package4:root">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.3" name="7:package6:vendor">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.4" name="7:package6:flavor">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.5" name="7:package10:allowcdrom">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.6" name="7:package4:type">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.7" name="7:package11:configfiles">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.8" name="7:package15:install_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.9" name="7:package8:category">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.10" name="7:package6:source">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.11" name="7:package12:responsefile">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.12" name="7:package11:description">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.13" name="7:package4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.14" name="7:package8:instance">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.15" name="7:package9:adminfile">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.17/@parameters.16" name="7:package6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.18" name="9:resources">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.18/@parameters.0" name="9:resources4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.18/@parameters.1" name="9:resources18:unless_system_user">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.18/@parameters.2" name="9:resources5:purge">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.19" name="6:router">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.19/@parameters.0" name="6:router3:url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.20" name="8:schedule">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.20/@parameters.0" name="8:schedule7:weekday">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.20/@parameters.1" name="8:schedule5:range">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.20/@parameters.2" name="8:schedule4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.20/@parameters.3" name="8:schedule6:repeat">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.20/@parameters.4" name="8:schedule6:period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.20/@parameters.5" name="8:schedule11:periodmatch">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.21" name="14:scheduled_task">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.21/@properties.0" name="14:scheduled_task7:trigger">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.21/@properties.1" name="14:scheduled_task7:enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.21/@properties.2" name="14:scheduled_task9:arguments">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.21/@properties.3" name="14:scheduled_task7:command">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.21/@properties.4" name="14:scheduled_task11:working_dir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.21/@properties.5" name="14:scheduled_task4:user">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.21/@parameters.0" name="14:scheduled_task4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.21/@parameters.1" name="14:scheduled_task8:password">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.21/@parameters.2" name="14:scheduled_task6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.22" name="10:selboolean">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.22/@properties.0" name="10:selboolean5:value">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.22/@parameters.0" name="10:selboolean10:persistent">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.22/@parameters.1" name="10:selboolean4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.23" name="9:selmodule">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.23/@properties.0" name="9:selmodule11:syncversion">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.23/@parameters.0" name="9:selmodule13:selmodulepath">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.23/@parameters.1" name="9:selmodule4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.23/@parameters.2" name="9:selmodule12:selmoduledir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.23/@parameters.3" name="9:selmodule6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24" name="7:service">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@properties.0" name="7:service6:enable">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@properties.1" name="7:service6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.0" name="7:service7:control">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.1" name="7:service4:stop">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.2" name="7:service7:restart">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.3" name="7:service6:binary">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.4" name="7:service7:pattern">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.5" name="7:service6:status">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.6" name="7:service5:start">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.7" name="7:service4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.8" name="7:service8:manifest">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.9" name="7:service4:path">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.10" name="7:service10:hasrestart">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.24/@parameters.11" name="7:service9:hasstatus">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.25" name="18:ssh_authorized_key">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.25/@properties.0" name="18:ssh_authorized_key6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.25/@properties.1" name="18:ssh_authorized_key4:type">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.25/@properties.2" name="18:ssh_authorized_key4:user">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.25/@properties.3" name="18:ssh_authorized_key3:key">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.25/@properties.4" name="18:ssh_authorized_key7:options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.25/@parameters.0" name="18:ssh_authorized_key4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.25/@parameters.1" name="18:ssh_authorized_key6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.26" name="6:sshkey">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.26/@properties.0" name="6:sshkey6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.26/@properties.1" name="6:sshkey4:type">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.26/@properties.2" name="6:sshkey3:key">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.26/@properties.3" name="6:sshkey12:host_aliases">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.26/@parameters.0" name="6:sshkey4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.26/@parameters.1" name="6:sshkey6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.27" name="5:stage">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.27/@parameters.0" name="5:stage4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.28" name="4:tidy">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.28/@parameters.0" name="4:tidy7:matches">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.28/@parameters.1" name="4:tidy3:age">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.28/@parameters.2" name="4:tidy4:path">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.28/@parameters.3" name="4:tidy6:rmdirs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.28/@parameters.4" name="4:tidy4:type">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.28/@parameters.5" name="4:tidy7:recurse">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.28/@parameters.6" name="4:tidy4:size">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.28/@parameters.7" name="4:tidy6:backup">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29" name="4:user">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.0" name="4:user3:uid">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.1" name="4:user16:password_min_age">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.2" name="4:user4:home">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.3" name="4:user5:shell">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.4" name="4:user5:auths">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.5" name="4:user4:keys">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.6" name="4:user8:password">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.7" name="4:user6:expiry">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.8" name="4:user7:project">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.9" name="4:user16:password_max_age">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.10" name="4:user5:roles">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.11" name="4:user3:gid">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.12" name="4:user10:attributes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.13" name="4:user8:profiles">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.14" name="4:user7:comment">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.15" name="4:user6:groups">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@properties.16" name="4:user6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.0" name="4:user20:attribute_membership">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.1" name="4:user6:system">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.2" name="4:user14:key_membership">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.3" name="4:user10:membership">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.4" name="4:user18:profile_membership">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.5" name="4:user4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.6" name="4:user9:allowdupe">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.7" name="4:user15:auth_membership">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.8" name="4:user15:role_membership">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.9" name="4:user14:ia_load_module">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.29/@parameters.10" name="4:user10:managehome">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.30" name="4:vlan">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.30/@properties.0" name="4:vlan11:description">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.30/@parameters.0" name="4:vlan4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.30/@parameters.1" name="4:vlan10:device_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.30/@parameters.2" name="4:vlan6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.31" name="4:whit">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.31/@parameters.0" name="4:whit4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32" name="7:yumrepo">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.0" name="7:yumrepo15:metadata_expire">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.1" name="7:yumrepo7:protect">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.2" name="7:yumrepo11:includepkgs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.3" name="7:yumrepo14:proxy_username">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.4" name="7:yumrepo8:gpgcheck">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.5" name="7:yumrepo6:gpgkey">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.6" name="7:yumrepo8:priority">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.7" name="7:yumrepo5:proxy">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.8" name="7:yumrepo9:sslverify">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.9" name="7:yumrepo10:mirrorlist">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.10" name="7:yumrepo9:keepalive">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.11" name="7:yumrepo7:enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.12" name="7:yumrepo14:proxy_password">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.13" name="7:yumrepo12:sslclientkey">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.14" name="7:yumrepo7:exclude">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.15" name="7:yumrepo12:http_caching">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.16" name="7:yumrepo4:cost">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.17" name="7:yumrepo7:include">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.18" name="7:yumrepo9:sslcacert">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.19" name="7:yumrepo14:failovermethod">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.20" name="7:yumrepo7:baseurl">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.21" name="7:yumrepo5:descr">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.22" name="7:yumrepo13:sslclientcert">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.23" name="7:yumrepo12:enablegroups">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@properties.24" name="7:yumrepo7:timeout">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.32/@parameters.0" name="7:yumrepo4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33" name="3:zfs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.0" name="3:zfs8:sharenfs">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.1" name="3:zfs7:volsize">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.2" name="3:zfs5:atime">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.3" name="3:zfs7:aclmode">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.4" name="3:zfs5:xattr">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.5" name="3:zfs8:checksum">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.6" name="3:zfs6:setuid">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.7" name="3:zfs7:version">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.8" name="3:zfs10:shareiscsi">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.9" name="3:zfs10:recordsize">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.10" name="3:zfs14:secondarycache">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.11" name="3:zfs5:quota">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.12" name="3:zfs5:zoned">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.13" name="3:zfs10:aclinherit">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.14" name="3:zfs8:canmount">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.15" name="3:zfs8:sharesmb">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.16" name="3:zfs11:compression">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.17" name="3:zfs12:primarycache">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.18" name="3:zfs6:nbmand">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.19" name="3:zfs7:snapdir">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.20" name="3:zfs6:copies">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.21" name="3:zfs10:mountpoint">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.22" name="3:zfs7:logbias">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.23" name="3:zfs11:reservation">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.24" name="3:zfs8:refquota">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.25" name="3:zfs14:refreservation">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.26" name="3:zfs4:exec">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.27" name="3:zfs7:devices">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.28" name="3:zfs5:vscan">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@properties.29" name="3:zfs8:readonly">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@parameters.0" name="3:zfs4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.33/@parameters.1" name="3:zfs6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34" name="4:zone">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@properties.0" name="4:zone6:shares">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@properties.1" name="4:zone7:dataset">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@properties.2" name="4:zone4:pool">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@properties.3" name="4:zone8:autoboot">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@properties.4" name="4:zone7:inherit">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@properties.5" name="4:zone6:iptype">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@properties.6" name="4:zone2:ip">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@parameters.0" name="4:zone2:id">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@parameters.1" name="4:zone11:create_args">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@parameters.2" name="4:zone5:clone">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@parameters.3" name="4:zone12:install_args">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@parameters.4" name="4:zone8:sysidcfg">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@parameters.5" name="4:zone4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@parameters.6" name="4:zone4:path">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@parameters.7" name="4:zone12:realhostname">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.34/@parameters.8" name="4:zone6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.35" name="5:zpool">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.35/@properties.0" name="5:zpool6:mirror">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.35/@properties.1" name="5:zpool5:raidz">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.35/@properties.2" name="5:zpool5:spare">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.35/@properties.3" name="5:zpool4:disk">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.35/@properties.4" name="5:zpool3:log">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.35/@parameters.0" name="5:zpool4:pool">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+      <userData key="org.cloudsmith.geppetto.pptp.parameter.namevar" value="true"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.35/@parameters.1" name="5:zpool11:raid_parity">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.35/@parameters.2" name="5:zpool6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36" name="11:nagios_host">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.0" name="11:nagios_host19:notification_period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.1" name="11:nagios_host10:icon_image">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.2" name="11:nagios_host14:check_interval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.3" name="11:nagios_host18:max_check_attempts">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.4" name="11:nagios_host8:contacts">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.5" name="11:nagios_host22:passive_checks_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.6" name="11:nagios_host5:realm">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.7" name="11:nagios_host15:check_freshness">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.8" name="11:nagios_host10:action_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.9" name="11:nagios_host21:event_handler_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.10" name="11:nagios_host16:stalking_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.11" name="11:nagios_host9:3d_coords">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.12" name="11:nagios_host14:retry_interval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.13" name="11:nagios_host24:first_notification_delay">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.14" name="11:nagios_host12:display_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.15" name="11:nagios_host13:initial_state">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.16" name="11:nagios_host28:retain_nonstatus_information">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.17" name="11:nagios_host13:check_command">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.18" name="11:nagios_host7:parents">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.19" name="11:nagios_host17:process_perf_data">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.20" name="11:nagios_host10:vrml_image">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.21" name="11:nagios_host3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.22" name="11:nagios_host16:obsess_over_host">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.23" name="11:nagios_host10:poller_tag">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.24" name="11:nagios_host19:freshness_threshold">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.25" name="11:nagios_host26:failure_prediction_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.26" name="11:nagios_host9:notes_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.27" name="11:nagios_host19:high_flap_threshold">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.28" name="11:nagios_host21:active_checks_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.29" name="11:nagios_host21:notifications_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.30" name="11:nagios_host10:hostgroups">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.31" name="11:nagios_host22:flap_detection_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.32" name="11:nagios_host9:2d_coords">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.33" name="11:nagios_host14:icon_image_alt">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.34" name="11:nagios_host20:notification_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.35" name="11:nagios_host21:notification_interval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.36" name="11:nagios_host6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.37" name="11:nagios_host15:statusmap_image">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.38" name="11:nagios_host18:low_flap_threshold">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.39" name="11:nagios_host15:business_impact">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.40" name="11:nagios_host5:alias">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.41" name="11:nagios_host22:flap_detection_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.42" name="11:nagios_host12:check_period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.43" name="11:nagios_host9:host_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.44" name="11:nagios_host8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.45" name="11:nagios_host7:address">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.46" name="11:nagios_host13:event_handler">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.47" name="11:nagios_host6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.48" name="11:nagios_host25:retain_status_information">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.49" name="11:nagios_host5:notes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.36/@parameters.50" name="11:nagios_host14:contact_groups">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37" name="16:nagios_hostgroup">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.0" name="16:nagios_hostgroup8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.1" name="16:nagios_hostgroup9:notes_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.2" name="16:nagios_hostgroup5:realm">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.3" name="16:nagios_hostgroup5:alias">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.4" name="16:nagios_hostgroup6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.5" name="16:nagios_hostgroup3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.6" name="16:nagios_hostgroup17:hostgroup_members">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.7" name="16:nagios_hostgroup5:notes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.8" name="16:nagios_hostgroup10:action_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.9" name="16:nagios_hostgroup7:members">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.10" name="16:nagios_hostgroup14:hostgroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.37/@parameters.11" name="16:nagios_hostgroup6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38" name="14:nagios_service">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.0" name="14:nagios_service19:notification_period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.1" name="14:nagios_service13:servicegroups">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.2" name="14:nagios_service10:icon_image">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.3" name="14:nagios_service14:check_interval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.4" name="14:nagios_service18:max_check_attempts">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.5" name="14:nagios_service8:contacts">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.6" name="14:nagios_service22:passive_checks_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.7" name="14:nagios_service15:check_freshness">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.8" name="14:nagios_service10:action_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.9" name="14:nagios_service21:event_handler_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.10" name="14:nagios_service16:stalking_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.11" name="14:nagios_service15:_naginator_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.12" name="14:nagios_service14:retry_interval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.13" name="14:nagios_service24:first_notification_delay">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.14" name="14:nagios_service12:display_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.15" name="14:nagios_service13:initial_state">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.16" name="14:nagios_service28:retain_nonstatus_information">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.17" name="14:nagios_service13:check_command">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.18" name="14:nagios_service17:process_perf_data">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.19" name="14:nagios_service3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.20" name="14:nagios_service19:freshness_threshold">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.21" name="14:nagios_service10:poller_tag">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.22" name="14:nagios_service26:failure_prediction_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.23" name="14:nagios_service14:hostgroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.24" name="14:nagios_service9:notes_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.25" name="14:nagios_service21:active_checks_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.26" name="14:nagios_service21:normal_check_interval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.27" name="14:nagios_service11:is_volatile">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.28" name="14:nagios_service19:high_flap_threshold">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.29" name="14:nagios_service21:notifications_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.30" name="14:nagios_service19:obsess_over_service">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.31" name="14:nagios_service22:flap_detection_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.32" name="14:nagios_service14:icon_image_alt">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.33" name="14:nagios_service20:notification_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.34" name="14:nagios_service21:notification_interval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.35" name="14:nagios_service6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.36" name="14:nagios_service18:low_flap_threshold">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.37" name="14:nagios_service15:business_impact">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.38" name="14:nagios_service20:retry_check_interval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.39" name="14:nagios_service22:flap_detection_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.40" name="14:nagios_service12:check_period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.41" name="14:nagios_service9:host_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.42" name="14:nagios_service17:parallelize_check">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.43" name="14:nagios_service8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.44" name="14:nagios_service13:event_handler">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.45" name="14:nagios_service6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.46" name="14:nagios_service25:retain_status_information">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.47" name="14:nagios_service5:notes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.48" name="14:nagios_service19:service_description">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.38/@parameters.49" name="14:nagios_service14:contact_groups">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39" name="19:nagios_servicegroup">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.0" name="19:nagios_servicegroup8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.1" name="19:nagios_servicegroup9:notes_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.2" name="19:nagios_servicegroup5:alias">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.3" name="19:nagios_servicegroup20:servicegroup_members">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.4" name="19:nagios_servicegroup17:servicegroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.5" name="19:nagios_servicegroup6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.6" name="19:nagios_servicegroup3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.7" name="19:nagios_servicegroup5:notes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.8" name="19:nagios_servicegroup10:action_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.9" name="19:nagios_servicegroup7:members">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.39/@parameters.10" name="19:nagios_servicegroup6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40" name="14:nagios_contact">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.0" name="14:nagios_contact24:host_notification_period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.1" name="14:nagios_contact26:host_notification_commands">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.2" name="14:nagios_contact27:service_notification_period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.3" name="14:nagios_contact3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.4" name="14:nagios_contact8:address1">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.5" name="14:nagios_contact8:address2">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.6" name="14:nagios_contact8:address3">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.7" name="14:nagios_contact12:contact_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.8" name="14:nagios_contact29:service_notifications_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.9" name="14:nagios_contact13:contactgroups">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.10" name="14:nagios_contact6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.11" name="14:nagios_contact5:pager">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.12" name="14:nagios_contact25:host_notification_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.13" name="14:nagios_contact5:alias">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.14" name="14:nagios_contact28:service_notification_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.15" name="14:nagios_contact8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.16" name="14:nagios_contact8:address6">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.17" name="14:nagios_contact26:host_notifications_enabled">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.18" name="14:nagios_contact8:address5">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.19" name="14:nagios_contact29:service_notification_commands">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.20" name="14:nagios_contact8:address4">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.21" name="14:nagios_contact5:email">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.22" name="14:nagios_contact6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.23" name="14:nagios_contact28:retain_nonstatus_information">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.24" name="14:nagios_contact25:retain_status_information">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.40/@parameters.25" name="14:nagios_contact19:can_submit_commands">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.41" name="19:nagios_contactgroup">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.41/@parameters.0" name="19:nagios_contactgroup8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.41/@parameters.1" name="19:nagios_contactgroup20:contactgroup_members">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.41/@parameters.2" name="19:nagios_contactgroup5:alias">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.41/@parameters.3" name="19:nagios_contactgroup6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.41/@parameters.4" name="19:nagios_contactgroup3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.41/@parameters.5" name="19:nagios_contactgroup7:members">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.41/@parameters.6" name="19:nagios_contactgroup17:contactgroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.41/@parameters.7" name="19:nagios_contactgroup6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42" name="17:nagios_timeperiod">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.0" name="17:nagios_timeperiod5:alias">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.1" name="17:nagios_timeperiod6:monday">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.2" name="17:nagios_timeperiod8:thursday">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.3" name="17:nagios_timeperiod3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.4" name="17:nagios_timeperiod7:exclude">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.5" name="17:nagios_timeperiod8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.6" name="17:nagios_timeperiod15:timeperiod_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.7" name="17:nagios_timeperiod9:wednesday">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.8" name="17:nagios_timeperiod6:sunday">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.9" name="17:nagios_timeperiod6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.10" name="17:nagios_timeperiod8:saturday">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.11" name="17:nagios_timeperiod7:tuesday">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.12" name="17:nagios_timeperiod6:friday">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.42/@parameters.13" name="17:nagios_timeperiod6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.43" name="14:nagios_command">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.43/@parameters.0" name="14:nagios_command12:command_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.43/@parameters.1" name="14:nagios_command6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.43/@parameters.2" name="14:nagios_command10:poller_tag">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.43/@parameters.3" name="14:nagios_command12:command_line">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.43/@parameters.4" name="14:nagios_command6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44" name="24:nagios_servicedependency">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.0" name="24:nagios_servicedependency15:_naginator_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.1" name="24:nagios_servicedependency15:inherits_parent">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.2" name="24:nagios_servicedependency29:notification_failure_criteria">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.3" name="24:nagios_servicedependency3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.4" name="24:nagios_servicedependency9:host_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.5" name="24:nagios_servicedependency14:hostgroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.6" name="24:nagios_servicedependency29:dependent_service_description">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.7" name="24:nagios_servicedependency8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.8" name="24:nagios_servicedependency19:dependent_host_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.9" name="24:nagios_servicedependency26:execution_failure_criteria">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.10" name="24:nagios_servicedependency6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.11" name="24:nagios_servicedependency17:dependency_period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.12" name="24:nagios_servicedependency19:service_description">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.13" name="24:nagios_servicedependency24:dependent_hostgroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.44/@parameters.14" name="24:nagios_servicedependency6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45" name="24:nagios_serviceescalation">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.0" name="24:nagios_serviceescalation18:first_notification">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.1" name="24:nagios_serviceescalation18:escalation_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.2" name="24:nagios_serviceescalation15:_naginator_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.3" name="24:nagios_serviceescalation17:servicegroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.4" name="24:nagios_serviceescalation3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.5" name="24:nagios_serviceescalation9:host_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.6" name="24:nagios_serviceescalation14:hostgroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.7" name="24:nagios_serviceescalation8:contacts">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.8" name="24:nagios_serviceescalation8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.9" name="24:nagios_serviceescalation17:escalation_period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.10" name="24:nagios_serviceescalation6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.11" name="24:nagios_serviceescalation19:service_description">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.12" name="24:nagios_serviceescalation17:last_notification">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.13" name="24:nagios_serviceescalation21:notification_interval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.14" name="24:nagios_serviceescalation6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.45/@parameters.15" name="24:nagios_serviceescalation14:contact_groups">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46" name="21:nagios_hostdependency">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.0" name="21:nagios_hostdependency15:_naginator_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.1" name="21:nagios_hostdependency15:inherits_parent">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.2" name="21:nagios_hostdependency29:notification_failure_criteria">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.3" name="21:nagios_hostdependency3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.4" name="21:nagios_hostdependency9:host_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.5" name="21:nagios_hostdependency14:hostgroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.6" name="21:nagios_hostdependency8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.7" name="21:nagios_hostdependency19:dependent_host_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.8" name="21:nagios_hostdependency26:execution_failure_criteria">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.9" name="21:nagios_hostdependency6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.10" name="21:nagios_hostdependency17:dependency_period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.11" name="21:nagios_hostdependency24:dependent_hostgroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.46/@parameters.12" name="21:nagios_hostdependency6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47" name="21:nagios_hostescalation">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.0" name="21:nagios_hostescalation18:first_notification">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.1" name="21:nagios_hostescalation18:escalation_options">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.2" name="21:nagios_hostescalation15:_naginator_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.3" name="21:nagios_hostescalation3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.4" name="21:nagios_hostescalation9:host_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.5" name="21:nagios_hostescalation14:hostgroup_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.6" name="21:nagios_hostescalation8:contacts">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.7" name="21:nagios_hostescalation8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.8" name="21:nagios_hostescalation17:escalation_period">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.9" name="21:nagios_hostescalation6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.10" name="21:nagios_hostescalation17:last_notification">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.11" name="21:nagios_hostescalation21:notification_interval">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.12" name="21:nagios_hostescalation6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.47/@parameters.13" name="21:nagios_hostescalation14:contact_groups">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48" name="18:nagios_hostextinfo">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.0" name="18:nagios_hostextinfo15:statusmap_image">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.1" name="18:nagios_hostextinfo10:icon_image">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.2" name="18:nagios_hostextinfo10:vrml_image">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.3" name="18:nagios_hostextinfo3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.4" name="18:nagios_hostextinfo9:3d_coords">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.5" name="18:nagios_hostextinfo9:host_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.6" name="18:nagios_hostextinfo9:notes_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.7" name="18:nagios_hostextinfo8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.8" name="18:nagios_hostextinfo6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.9" name="18:nagios_hostextinfo9:2d_coords">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.10" name="18:nagios_hostextinfo14:icon_image_alt">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.11" name="18:nagios_hostextinfo5:notes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.48/@parameters.12" name="18:nagios_hostextinfo6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49" name="21:nagios_serviceextinfo">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Type"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.0" name="21:nagios_serviceextinfo8:register">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.1" name="21:nagios_serviceextinfo9:notes_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.2" name="21:nagios_serviceextinfo15:_naginator_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.3" name="21:nagios_serviceextinfo10:icon_image">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.4" name="21:nagios_serviceextinfo6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.5" name="21:nagios_serviceextinfo3:use">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.6" name="21:nagios_serviceextinfo14:icon_image_alt">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.7" name="21:nagios_serviceextinfo5:notes">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.8" name="21:nagios_serviceextinfo9:host_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.9" name="21:nagios_serviceextinfo19:service_description">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.10" name="21:nagios_serviceextinfo10:action_url">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@types.49/@parameters.11" name="21:nagios_serviceextinfo6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.0" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.0/@parameters.0" name="4:file8:checksum">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.1" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.1/@properties.0" name="4:file7:content">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.2" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.2/@properties.0" name="4:file5:ctime">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.3" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.3/@properties.0" name="4:file6:ensure">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.4" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.4/@properties.0" name="4:file5:group">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.5" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.5/@properties.0" name="4:file4:mode">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.6" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.6/@properties.0" name="4:file5:mtime">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.7" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.7/@properties.0" name="4:file5:owner">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.8" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.8/@parameters.0" name="4:file23:selinux_ignore_defaults">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.9" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.9/@properties.0" name="4:file7:seluser">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.10" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.10/@properties.0" name="4:file7:selrole">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.11" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.11/@properties.0" name="4:file7:seltype">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.12" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.12/@properties.0" name="4:file8:selrange">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.13" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.13/@parameters.0" name="4:file6:source">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.14" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.14/@properties.0" name="4:file6:target">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.15" name="4:file">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//TypeFragment"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@typeFragments.15/@properties.0" name="4:file4:type">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Property"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType" name="4:Type">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//MetaType"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.0" name="4:Type8:loglevel">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.1" name="4:Type8:schedule">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.2" name="4:Type9:subscribe">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.3" name="4:Type5:check">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.4" name="4:Type5:alias">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.5" name="4:Type6:before">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.6" name="4:Type3:tag">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.7" name="4:Type4:noop">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.8" name="4:Type6:notify">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.9" name="4:Type5:audit">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.10" name="4:Type7:require">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.11" name="4:Type5:stage">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaType/@parameters.12" name="4:Type8:provider">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Parameter"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaVariables.0" name="4:name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//MetaVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaVariables.1" name="5:title">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//MetaVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/0/@metaVariables.2" name="11:module_name">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//MetaVariable"/>
+    </exportedObjects>
+    <exportedObjects fragment="/1/@functions.0" name="5:hiera">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/1/@functions.1" name="11:hiera_array">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/1/@functions.2" name="10:hiera_hash">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+    <exportedObjects fragment="/1/@functions.3" name="13:hiera_include">
+      <eClass href="http://www.cloudsmith.org/geppetto/1.0.0/PPTP#//Function"/>
+    </exportedObjects>
+  </builderState:ResourceDescription>
+</xmi:XMI>

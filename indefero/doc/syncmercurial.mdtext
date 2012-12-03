@@ -1,0 +1,96 @@
+# Plugin SyncMercurial by Benjamin Jorand 
+
+The SyncMercurial plugin allows the direct creation and synchronisation of
+mercurial repositories with the InDefero database. The repositories will be
+published by hgwebdir.cgi using HTTP. It also handles private repositories.
+
+SyncMercurial is adapted from SyncSvn by Baptiste Michaud.
+
+## To Contact the Author
+
+    Benjamin Jorand <benjamin.jorand@gmail.com>
+
+## Apache configuration
+
+The simple way to share Mercurial repositories is to publish them
+using HTTP and `hgwebdir.cgi`.
+
+It first requires a config file called hgweb.config in the same
+directory where you put hgwebdir.cgi (for example,
+`/home/indefero/scripts`):
+    
+    [collections]
+    /home/indefero/repositories/mercurial/ = /home/indefero/repositories/mercurial/
+
+Then configure a vhost this way :
+
+    ScriptAliasMatch ^/hg(.*) /home/indefero/scripts/hgwebdir.cgi$1
+    <Directory /home/indefero/scripts>
+        Options +ExecCGI
+        AuthName "Restricted"
+        AuthType Basic
+        AuthUserFile /home/indefero/auth/.htpasswd
+        <Limit PUT POST>
+            Require valid-user
+        </Limit>
+    </Directory>
+
+Enable the authentification for private repositories :
+
+    Include /home/indefero/scripts/private_indefero.conf
+
+## InDefero configuration
+
+First, you need to install the File_Passwd PEAR package:
+
+    $ sudo pear install File_Passwd
+
+Then, based on the paths provided in the Apache configuration, you
+need to put the following lines in your configuration file:
+
+    $cfg['idf_plugin_syncmercurial_passwd_file'] = '/home/indefero/auth/.htpasswd';
+    $cfg['idf_plugin_syncmercurial_path'] = '/home/indefero/repositories/mercurial';
+    $cfg['idf_plugin_syncmercurial_private_include'] = '/home/indefero/scripts/private_indefero.conf';
+    $cfg['idf_plugin_syncmercurial_private_notify'] = '/home/indefero/tmp/notify.tmp';
+    $cfg['idf_plugin_syncmercurial_private_url'] = '/hg/%s';
+
+You also need to provide the base definition of the hgrc file. For example:
+
+    $cfg['idf_plugin_syncmercurial_hgrc'] = array(
+               'web' => array('push_ssl' => 'false',
+                              'allow_push' => '',
+                              'description' => '',
+                              'allow_archive' => 'bz2, zip, gz',
+                              'style' => 'gitweb',
+                              'contact' => ''),
+               'hooks' => array(),
+               'extensions' => array(),
+                                                  );
+
+If you are note using Apache but Nginx, you may need to create the
+passwords as plain text passwords (see ticket 391). You can configure
+the password storage with the format you want. The default is `sha`
+you can set it to `plain` for nginx.
+
+    $cfg['idf_plugin_syncmercurial_passwd_mode'] = 'sha';
+
+See the [`FILE_PASSWD_*` constants](http://euk1.php.net/package/File_Passwd/docs/latest/File_Passwd/_File_Passwd-1.1.7---Passwd.php.html) for more choices.
+
+## Cron configuration
+
+As InDefero modifies the private_indefero.conf, apache needs to be reloaded.
+Each time this file is modified, a temporary file is created. 
+
+    */5 * * * * /bin/sh /home/indefero/src/scripts/SyncMercurial.sh
+
+Edit this script and add correct values to `private_notify` and `reload_cmd`.
+
+## Hook configuratin
+
+To get notifications sent directly when pushing in your repositories,
+you need to add the following in your `.hgrc` file. The script will be
+called onec per push and will automatically send the notifications and
+sync the timeline.
+
+    [hooks]
+    changegroup = /home/indefero/src/scripts/hgchangegroup.php

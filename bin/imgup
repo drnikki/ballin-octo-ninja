@@ -1,0 +1,7 @@
+# this was taken directly from paulirish, but it's about to get majorly modified
+# lets toss an image onto my server and pbcopy that bitch.
+function scpp() {
+    scp "$1" aurgasm@aurgasm.us:~/paulirish.com/i;
+    echo "http://paulirish.com/i/$1" | pbcopy;
+    echo "Copied to clipboard: http://paulirish.com/i/$1"
+}

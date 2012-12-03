@@ -1,0 +1,9 @@
+# All the dig info, 'cause I can never remember it
+digga () {
+  dig +nocmd $1 any +multiline +noall +answer
+}
+
+# ps aux | grep something-thats-probably-broken
+paux() {
+  ps aux | grep $1
+}

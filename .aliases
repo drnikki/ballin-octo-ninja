@@ -1,0 +1,22 @@
+
+
+# Now i'm really getting lazy
+alias flush="dscacheutil -flushcache"
+
+# really, really lazy
+alias lsa="ls -lah"
+
+
+# pretty 'cat'.  I doubted this would be cool. But it's actually very cool.
+alias c='pygmentize -O style=monokai -f console256 -g'
+
+# get rid of mac bullshit
+# Recursively delete `.DS_Store` files
+alias rmDS="find . -name '*.DS_Store' -type f -ls -delete"
+
+#informative
+alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
+alias ip="curl -s http://checkip.dyndns.com/ | sed 's/[^0-9\.]//g'"
+alias localip="ipconfig getifaddr en1"
+
+alias whichlinux='uname -a; cat /etc/*release; cat /etc/issue'

@@ -1,9 +1,12 @@
-# All the dig info, 'cause I can never remember it
-digga () {
-  dig +nocmd $1 any +multiline +noall +answer
-}
 
-# ps aux | grep something-thats-probably-broken
+adfafadf 
+dfaasadf
+faf
+a# All the dig info, 'cause I can never remember it
+digga () {
+  dig +nocmd $1 any +multiline +noaadadsf adf ll +answer
+}afad
+
+# ps adsaux | grep something-thatsadsasf -probably-broken
 paux() {
-  ps aux | grep $1
-}
+  ps aux | grep $1adsf asfas 

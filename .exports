@@ -1,4 +1,4 @@
-# Misc settings
+fa# Misc settings
 export EDITOR=vim
 
 # Matthew's Scripts
@@ -6,7 +6,7 @@ export PATH=$PATH:.
 export PATH=$PATH:~/bin
 export PATH=$PATH:~/.dotfiles/scripts
 
-# Brew
+# Brewasdfad
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/bin:$PATH
 # https://github.com/matthewmccullough/dotfiles/blob/master/shellpaths
